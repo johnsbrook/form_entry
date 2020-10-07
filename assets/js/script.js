@@ -1,5 +1,5 @@
-var el = document.getElementById("alert")
+test();
 
-el.addEventListener("click", function() {
-    alert("This is a click")
-})
+function test() {
+    console.log("You're in script.js")
+}
